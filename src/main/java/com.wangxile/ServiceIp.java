@@ -40,5 +40,21 @@ public class ServiceIp {
         WEIGHT_LIST.put("192.168.0.10", 9);
     }
 
+    public static final Map<String, Integer> ACTIVITY_LIST = new LinkedHashMap<String, Integer>();
+    static {
+        ACTIVITY_LIST.put("192.168.0.1", 2);
+        ACTIVITY_LIST.put("192.168.0.2", 0);
+        ACTIVITY_LIST.put("192.168.0.3", 1);
+        ACTIVITY_LIST.put("192.168.0.4", 3);
+        ACTIVITY_LIST.put("192.168.0.5", 0);
+        ACTIVITY_LIST.put("192.168.0.6", 1);
+        ACTIVITY_LIST.put("192.168.0.7", 4);
+        ACTIVITY_LIST.put("192.168.0.8", 2);
+        ACTIVITY_LIST.put("192.168.0.9", 7);
+        ACTIVITY_LIST.put("192.168.0.10", 3);
+    }
+
+
+
 
 }
